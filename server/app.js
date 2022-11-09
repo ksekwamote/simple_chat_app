@@ -12,7 +12,6 @@ const io = new Server(server , {
 })
 
 
-//const _filename = fileURLToPath(import.meta.url)
 const _dirname = path.dirname("")
 const buildPath = path.join(_dirname  , "../client/build");
 
@@ -30,6 +29,8 @@ app.get("/*", function(req, res){
       );
 
 })
+
+
 
 
 io.on("connection" , (socket) => {
