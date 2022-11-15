@@ -30,7 +30,7 @@ export default function ChatBoxReciever({avatar , user, message}) {
 
 export function ChatBoxSender({avatar , user, message}) {
     return (
-      <div  style={{display:'flex', justifyContent:'flex-end' , flexDirection:'row'}} >
+      <div  style={{display:'flex', paddingRight:10  ,justifyContent:'flex-end' , flexDirection:'row'}} >
               <Avatar
               size={50}
               src={<Image
